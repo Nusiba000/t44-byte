@@ -13,5 +13,7 @@ if opreation == "bitwise or":
     print(result)
 
 # Perform Bitwise AND operation
-result = num_1 & num_2
+elif opreation == "bitwise and":
+    result = num_1 & num_2
+
 print(f"The result of {num_1} & {num_2} is: {result}")
