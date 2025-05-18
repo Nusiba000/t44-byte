@@ -11,3 +11,14 @@ opreation = input("Enter one of bitwise or, bitwise and,bitwise xor,generate ran
 if opreation == "bitwise or":
     result = num_1 | num_2
     print(result)
+
+# Perform Bitwise AND operation
+elif opreation == "bitwise and":
+    result = num_1 & num_2
+
+elif opreation == "bitwise xor":
+    result = num_1 ^ num_2
+    print(f"The result of {num_1} ^ {num_2} is: {result}")
+
+
+
